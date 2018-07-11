@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.UsersDao">
+
+   <select id="login" resultType="com.example.demo.entity.Users">
+      select * from tb_users where userName=#{param1} and password=#{param2}
+   </select>
+   
+   <!-- @example from URL:mybatis.org
+  	<insert id="insertAuthor" useGeneratedKeys="true"	keyProperty="id">
+  		insert into Author (userName,password,email,bio)	values (#{username},#{password},#{email},#{bio})
+	</insert> -->
+   
+   <insert id="register" >
+   	  insert into tb_users(userName,password,sex,age,remark) values(#{userName},#{password},#{sex},#{age},#{remark})
+   </insert>
+   
+</mapper>
