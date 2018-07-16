@@ -1,2 +1,2 @@
 # Blog
-My First Repository is used for creating a blog project.
+My First epository is used for creating a blog project.
