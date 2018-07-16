@@ -1,13 +1,13 @@
 /**
 * @Description:    实体层配置各实体对象的属性以及getter/setter方法
-* @Author:         
-* @CreateDate:    
-* @UpdateUser:     
-* @UpdateDate:    
-* @UpdateRemark:   修改内容
-* @Version:        1.0
+* @Author:         @author lind001
+* @CreateDate:     2018-7-11
+* @UpdateUser:     @author lind001
+* @UpdateDate:     2018-7-12
+* @UpdateRemark:   调整并规范了Users类的各个属性的getter与setter方法
+* @Version:        2.0 
 */
-package com.example.demo.Entity;
+package com.example.demo.entity;
 
 /**
  * @author lind001
@@ -22,7 +22,6 @@ public class Users {
 		private String sex;
 		private String remark;
 		//...
-
 		public String getUserName() {
 			return userName;
 		}
@@ -31,6 +30,9 @@ public class Users {
 		}
 		public String getPassword() {
 			return password;
+		}
+		public void setPassword(String password) {
+			this.password = password;
 		}
 		public int getAge() {
 			return age;
@@ -49,9 +51,6 @@ public class Users {
 		}
 		public void setRemark(String remark) {
 			this.remark = remark;
-		}
-		public void setPassword(String password) {
-			this.password = password;
 		}
 		
 	}

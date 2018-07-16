@@ -1,0 +1,32 @@
+
+ [INFO ][2018/07/13 14:57:36861][com.example.demo.Log4jTest.main(Log4jTest.java:26)]
+Current Time: 1531465056859
+ [INFO ][2018/07/13 14:57:36866][com.example.demo.Log4jTest.main(Log4jTest.java:27)]
+Current Time: 1531465056866
+ [INFO ][2018/07/13 14:57:36866][com.example.demo.Log4jTest.main(Log4jTest.java:28)]
+Current Time: 1531465056866
+ [WARN ][2018/07/13 14:57:36866][com.example.demo.Log4jTest.main(Log4jTest.java:30)]
+warn log
+ [INFO ][2018/07/13 14:57:36866][com.example.demo.Log4jTest.main(Log4jTest.java:32)]
+info log
+ [ERROR][2018/07/13 14:57:36867][com.example.demo.Log4jTest.main(Log4jTest.java:33)]
+error log
+ [INFO ][2018/07/13 15:02:31199][com.example.demo.Log4jTest.main(Log4jTest.java:26)]
+Current Time: 1531465351196
+ [INFO ][2018/07/13 15:02:31204][com.example.demo.Log4jTest.main(Log4jTest.java:27)]
+Current Time: 1531465351203
+ [INFO ][2018/07/13 15:08:11292][com.example.demo.Log4jTest.main(Log4jTest.java:28)]
+Current Time: 1531465691278
+ [WARN ][2018/07/13 15:08:17627][com.example.demo.Log4jTest.main(Log4jTest.java:30)]
+warn log
+ [INFO ][2018/07/13 15:08:20781][com.example.demo.Log4jTest.main(Log4jTest.java:32)]
+info log
+ [ERROR][2018/07/13 15:08:22725][com.example.demo.Log4jTest.main(Log4jTest.java:33)]
+error log
+ [INFO ][2018/07/13 15:08:35365][com.example.demo.Log4jTest.main(Log4jTest.java:26)]
+Current Time: 1531465715363
+ [INFO ][2018/07/13 15:08:35370][com.example.demo.Log4jTest.main(Log4jTest.java:27)]
+Current Time: 1531465715370
+ [INFO ][2018/07/13 15:08:37913][com.example.demo.Log4jTest.main(Log4jTest.java:28)]
+Current Time: 1531465717905
+ 

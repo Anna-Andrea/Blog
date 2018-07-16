@@ -1,0 +1,14 @@
+server:
+  port: 8080 //对应端口号
+
+spring:
+  profiles:
+    active: prod //spring默认配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/database 
+    username: root
+    password: lind001    //数据库的驱动和账号密码
+mybatis:
+  mapper-locations: classpath:mapper/UsersMapper.xml   //mybatis的mapper文件所在路径
+  type-aliases-package: com.example.demo.entity   //实体类路径

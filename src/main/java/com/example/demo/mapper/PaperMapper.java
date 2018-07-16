@@ -7,12 +7,12 @@
 * @UpdateRemark:   修改内容
 * @Version:        1.0
 */
-package com.example.demo.Dao;
+package com.example.demo.mapper;
 
 /**
  * @author lind001
  *
  */
-public interface UserDao {
+public class PaperMapper {
 
 }
